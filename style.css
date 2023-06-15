@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+/*Navigation Bar*/
+.nav{
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    align-items: center;
+    position: fixed;
+    backdrop-filter: blur(15px);
+}
+.logo{
+    margin-left: 1vw;
+    height: 14vh;
+    width: 15vw;
+}
+.midnav{
+    display: flex;
+    width: 75vw;
+    list-style-type: none;
+    align-items: center;
+    padding-left: 10vw;
+}
+.midEle{
+    margin-left: 3vw;
+    font-size: 1.6rem;
+    /* font-weight: bold; */
+    text-align: center;
+}
+.navLinks{
+    text-decoration: none;
+    color: black;
+}
+.navLinks:hover{
+    color: white;
+    text-decoration: underline;
+}
+.rightnav{
+    display: flex;
+    height: 15vh;
+    width: 20vw;
+    margin-right: 0;
+    align-items: center;
+    list-style-type: none;
+}
+.rightEle{
+    margin-left: 2vw;
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    text-align: center;
+}
+.ham{
+    height: 8vh;
+}
+
+/*Body*/
+.cards{
+    
+}
+.carName
+{
+    font-size: 2.1rem;
+    font-weight: bold;
+    padding-top: 20vh;
+    color: #393c41;
+}
+.buttonss{
+    margin-top: 60vh;
+}
+button:hover{
+    box-shadow: 5px 5px 5px 5px gray;
+    cursor: pointer;
+}
+.leftbut{
+    font-size: 1.2rem;
+    border-radius: 30px;
+    width: 15vw;
+    height: 6vh;
+    background-color: rgb(47, 49, 55);
+    backdrop-filter: blur(5px);
+    color: white;;
+}
+.rightbut{
+    font-size: 1.2rem;
+    border-radius: 30px;
+    width: 15vw;
+    height: 7vh;
+    background-color: rgb(199, 195, 198);
+    backdrop-filter: blur(8px);
+    color: black;
+}
+.car1{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./Assets/AgeraRS.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.car2{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./Assets/One1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.car3{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./Assets/Regera.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.car4{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./Assets/Jesko.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.car5{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./Assets/JeskoAbsolute.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.car6{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./Assets/Gemera.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
